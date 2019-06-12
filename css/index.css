@@ -1,73 +1,80 @@
-/*body {
-  background-color:  #ecf9f4;
-}*/
 .nav_bar {
   margin: auto;
   text-align: center;
-  margin: 3px 370px;
-  border: 2px solid mediumaquamarine;
-  background: #b2e6d5;
+  margin: 0px 500px;
+  padding:6px;
+  background: #329a77;
   max-width: 100%;
 }
+
 .nav_bar ul {
   padding: 10px;
   list-style: none;
 }
+
 .nav_bar ul li{
   float: right;
   font-size: 17px;
   font-weight: bold;
   font-family: Verdana, Geneva, sans-serif;
   text-align: center;
-
 }
 
 .nav_bar ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #E8FFF5;
   padding: 20px 20px 20px 20px;
   width: 50px;
   text-align: center;
 }
 
 #intro {
-    background-color: #E8FFF5;
-    border: 2px solid mediumaquamarine;
+    background-color: #b2e6d5;
     text-align: center;
-    margin: 3px 370px;
+    margin: 0px 500px;
+    padding: 70px;
+    font-size: 38px;
+    border: 2px solid #329a77;
+    border-bottom: none;
+    border-top: none;
+    color: #133924;
     font-family: Verdana, Geneva, sans-serif;
-    padding: 10px;
-    font-size: 16px;
 }
 
 #header1 {
-    background-color: #b2e6d5;
-    margin: 3px 370px;
+    background-color: #E8FFF5;
+    margin: 0px 500px;
     font-family: Verdana, Geneva, sans-serif;
-    border: 2px solid mediumaquamarine;
-    padding: 10px;
-    font-size: 14px;
+    padding: 30px;
+    font-size: 17px;
+    border: 2px solid #329a77;
+    color: #133924;
 }
 
 #header2 {
-    background-color: #b2e6d5;
-    margin: 3px 370px;
+    background-color: #E8FFF5;
+    margin: 0px 500px;
     font-family: Verdana, Geneva, sans-serif;
-    padding: 10px;
-    font-size: 14px;
-    border: 2px solid mediumaquamarine;
+    padding: 30px;
+    font-size: 17px;
+    border: 2px solid #329a77;
+    color: #133924;
 }
 
 .gallery {
   text-align: center;
-  margin: 3px 370px;
-  background-color: #E8FFF5;
-  border: 2px dotted mediumaquamarine;
+  margin: 0px 500px;
+  background-color: 	 #E8FFF5;
+  padding: 30px;
+  border: 2px solid #329a77;
+  border-bottom: none;
+  border-top: none;
 }
 
 .gallery img {
   transition: 1s;
-  padding: 5px;
+  padding: 15Px;
+
 }
 
 .gallery img:hover {
@@ -75,3 +82,38 @@
   transform: scale(1.1);
 }
 
+body {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav_bar2 {
+  margin: auto;
+  text-align: center;
+  margin: 0px 500px;
+  padding:6px;
+  background: #329a77;
+  max-width: 100%;
+}
+
+.nav_bar2 ul {
+  padding: 10px;
+  list-style: none;
+}
+
+.nav_bar2 ul li{
+  float: right;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+}
+
+.nav_bar2 ul li a {
+  text-decoration: none;
+  color: #E8FFF5;
+  padding: 20px 20px 20px 20px;
+  width: 50px;
+  text-align: center;
+}
