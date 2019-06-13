@@ -1,0 +1,16 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Pooja's Place",
+    "scope": "/Website/index.html",
+    "display": "browser",
+    "start_url": "https://poojapatel45.github.io/Website/index.html",
+    "short_name": "Pooja's Place",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": []
+}
