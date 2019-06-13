@@ -3,7 +3,7 @@
     "lang": "en",
     "name": "Pooja's Place",
     "scope": "/Website/index.html",
-    "display": "browser",
+    "display": "standalone",
     "start_url": "https://poojapatel45.github.io/Website/index.html",
     "short_name": "Pooja's Place",
     "theme_color": "transparent",
