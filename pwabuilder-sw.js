@@ -2,17 +2,13 @@ const CACHE = "pwabuilder-page";
 
 const offlineFallbackPage = "offline.html";
 
-self.addEventListener("install", function (event) {
-  console.log("[PWA Builder] Install Event processing");
-
+self.addEventListener( "install", function( event ) {
+// console.log( "WORKER: install event in progress." );
+// immediately take over
+  self.skipWaiting();
   event.waitUntil(
-    caches.open(CACHE).then(function (cache) {
-      console.log("[PWA Builder] Cached offline page during install");
-
-      if (offlineFallbackPage === "offline.html") {
-        return cache.add(new Response(offlineFallbackPage));
-      }
-
+    caches.open(CACHE)
+    .then(function( cache ) {
       return cache.add(offlineFallbackPage);
     })
   );
