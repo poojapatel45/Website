@@ -2,7 +2,7 @@
     "dir": "ltr",
     "lang": "en",
     "name": "Pooja's Place",
-    "scope": "/Website/index.html",
+    "scope": "/Website/",
     "display": "standalone",
     "start_url": ".",
     "short_name": "Pooja's Place",
