@@ -4,7 +4,7 @@
     "name": "Pooja's Place",
     "scope": "/Website/index.html",
     "display": "standalone",
-    "start_url": "https://poojapatel45.github.io/Website/index.html",
+    "start_url": "https://placeofpooja.azurewebsites.net/index.html",
     "short_name": "Pooja's Place",
     "theme_color": "transparent",
     "description": "",
