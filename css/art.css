@@ -1,12 +1,15 @@
-/*hello*/
+body {
+  margin: auto;
+  width: 50%;
+  min-width: 1000px;
+}
+
 .nav_bar {
   margin: auto;
   text-align: center;
-  margin: 0px 500px;
-  padding:6px;
+  padding: 6px;
   background: #329a77;
-  max-width: 100%;
-}
+ }
 
 .nav_bar ul {
   padding: 10px;
@@ -32,9 +35,8 @@
 #intro {
   background-color: #b2e6d5;
   text-align: center;
-  margin: 0px 500px;
   font-family: Verdana, Geneva, sans-serif;
-  padding: 70px;
+  padding: 50px;
   font-size: 38px;
   border: 2px solid #329a77;
   border-bottom: none;
@@ -42,21 +44,18 @@
   color: #133924;
 }
 
-
 #intro2 {
   background-color: #E8FFF5;
-  margin: 0px 500px;
-    font-family: Verdana, Geneva, sans-serif;
-    padding: 30px;
-    font-size: 17px;
-    border: 2px solid #329a77;
-    color: #133924;
+  font-family: Verdana, Geneva, sans-serif;
+  padding: 30px;
+  font-size: 17px;
+  border: 2px solid #329a77;
+  color: #133924;
 }
 
 .gallery {
   text-align: center;
-  margin: 0px 500px;
-  background-color: 	 #E8FFF5;
+  background-color: #E8FFF5;
   padding: 30px;
   border: 2px solid #329a77;
   border-bottom: none;
@@ -69,11 +68,10 @@
 }
 
 .image-resize {
-  height:300px;
+  height: 300px;
   width: 240px;
   object-fit: cover;
   object-position: center center;
-
 }
 
 .gallery img:hover {
@@ -84,8 +82,7 @@
 .nav_bar2 {
   margin: auto;
   text-align: center;
-  margin: 0px 500px;
-  padding:6px;
+  padding: 6px;
   background: #329a77;
   max-width: 100%;
 }
